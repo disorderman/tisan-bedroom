@@ -10,7 +10,8 @@
 
 #include "osapi.h"
 #ifndef INFO
-#define INFO os_printf
+//#define INFO os_printf
+#define INFO
 #endif
 
 #endif /* USER_DEBUG_H_ */
