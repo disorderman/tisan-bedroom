@@ -12,7 +12,7 @@
 #     a generated lib/image xxx.a ()
 #
 TARGET = eagle
-FLAVOR = production
+FLAVOR = debug
 
 #EXTRA_CCFLAGS += -u
 

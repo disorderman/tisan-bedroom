@@ -37,7 +37,9 @@ void user_init(void)
 	//auto_check_connect_init();
 
 	// add you object init here.
-	led_object_init();
+	//led_object_init();
+	temperature_object_init();
+	humiture_object_init();
 
 	pando_framework_init();
 }

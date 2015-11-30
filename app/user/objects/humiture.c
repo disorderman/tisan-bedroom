@@ -4,7 +4,7 @@
 #include "user_interface.h"
 #include "humiture.h"
 // add your own includes below
-#define HUMITURE_OBJECT_NO 1
+#define HUMITURE_OBJECT_NO 2
 
 struct humiture {
 	float32 percent;
@@ -79,7 +79,7 @@ void ICACHE_FLASH_ATTR
 humiture_object_init() {
 	humiture_init();
 	pando_object humiture_object = {
-		1,
+		HUMITURE_OBJECT_NO,
 		humiture_object_pack,
 		humiture_object_unpack,
 	};

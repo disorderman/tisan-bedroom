@@ -79,7 +79,7 @@ void ICACHE_FLASH_ATTR
 temperature_object_init() {
 	temperature_init();
 	pando_object temperature_object = {
-		1,
+		TEMPERATURE_OBJECT_NO,
 		temperature_object_pack,
 		temperature_object_unpack,
 	};
